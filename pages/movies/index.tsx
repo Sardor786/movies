@@ -3,10 +3,10 @@ import { useRouter } from "next/router";
 import qs from "querystring";
 import { Col, Row } from "antd";
 
-import mainCallerApi from "/pages/api";
-import { MovieItemTypes, MovieListTypes } from "/pages/types";
-import Pagination from "./components/Pagination";
-import MovieCard from "./components/MovieCard";
+import mainCallerApi from "/api";
+import { MovieItemTypes, MovieListTypes } from "/types";
+import Pagination from "/components/Pagination";
+import MovieCard from "/components/MovieCard";
 
 export default function Movies(props: MovieListTypes) {
 	const router = useRouter();

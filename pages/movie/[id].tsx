@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Rate, Row, Space, Tag } from "antd";
 
-import mainCallerApi from "/pages/api";
-import { MovieItemTypes } from "/pages/types";
+import mainCallerApi from "/api";
+import { MovieItemTypes } from "/types";
 import time from "/helpers/time";
-import BackButton from "./components/BackButton";
-import People from "./components/People";
-import Gallery from "./components/Gallery";
-import Video from "./components/Video";
+import BackButton from "/components/BackButton";
+import People from "/components/People";
+import Gallery from "/components/Gallery";
+import Video from "/components/Video";
 
 export default function MoviePage(movie: MovieItemTypes) {
 	return (
